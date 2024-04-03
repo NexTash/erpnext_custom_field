@@ -215,3 +215,13 @@ app_license = "MIT"
 # auth_hooks = [
 #	"erpnext_custom_field.auth.validate"
 # ]
+fixtures = [
+    {
+        "dt": "Custom Field",
+        "filters": [
+            ["name", "in", [
+				"Customer-custom_custom_birthday"
+			]]
+		]
+	},
+]
